@@ -17,6 +17,8 @@ The following picture, we had used a Diffusion Generative AI model to create the
 
 ![tmpr0_v0539](https://github.com/user-attachments/assets/afc11c39-eb7c-4ef3-b3e3-19b97130a313)
 
+![tmpofr6c_0z](https://github.com/user-attachments/assets/3f15fe21-2e19-4eeb-8fc3-854db9c28884)
+
 
 
 The following is excerpt of the code we used for object detection:
