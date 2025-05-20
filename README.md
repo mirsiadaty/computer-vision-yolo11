@@ -1,6 +1,7 @@
 # computer-vision-yolo11
 
-The following are examples of 'object detection' in pictures:
+The following are examples of 'object detection' in pictures. We used version 11 of the neural network model YOLO (You Only Live Once), open-sourced by Ultralytics (https://huggingface.co/Ultralytics/YOLO11)
+
 
 ![tmp6yf0_eyz](https://github.com/user-attachments/assets/e935e5b4-347d-4698-96e1-0e531ff4b9a7)
 
@@ -9,5 +10,9 @@ The following are examples of 'object detection' in pictures:
 ![tmp7zd4ruvw](https://github.com/user-attachments/assets/04e512cd-38a3-45b4-a91c-e17a9c46e460)
 
 ![tmphfolxyyn](https://github.com/user-attachments/assets/1981e1fa-473c-44dd-af2e-56c40198255b)
+
+![tmpv7f13_c5](https://github.com/user-attachments/assets/7aada6d6-109a-4709-ba22-f13ba67e72f3)
+
+![tmpr0_v0539](https://github.com/user-attachments/assets/afc11c39-eb7c-4ef3-b3e3-19b97130a313)
 
 
