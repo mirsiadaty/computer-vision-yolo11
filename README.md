@@ -18,3 +18,30 @@ The following picture, we had used a Diffusion Generative AI model to create the
 ![tmpr0_v0539](https://github.com/user-attachments/assets/afc11c39-eb7c-4ef3-b3e3-19b97130a313)
 
 
+
+The following is excerpt of the code we used for object detection:
+
+```
+#https://github.com/ultralytics/ultralytics
+from ultralytics import YOLO
+# Load a pretrained YOLO11n model
+model = YOLO("yolo11n.pt")
+
+FlnmsL = !ls -1 /home/lcluser44/Downloads/*jpeg
+
+print( '22' , time.asctime( time.localtime( time.time() ) ))
+#
+for ii,vv in enumerate(FlnmsL):
+    print( '33' , time.asctime( time.localtime( time.time() ) ))
+    print(ii,vv)
+    Flnm =vv
+    # Perform object detection on an image
+    results = model( Flnm )  # Predict on an image
+    time.sleep(1)
+    #
+    results[0].show()  # Display results
+    print('---------------------\n\n')
+    time.sleep(1)
+#
+print( '998' , time.asctime( time.localtime( time.time() ) ))
+```
