@@ -24,6 +24,7 @@ The following is excerpt of the code we used for object detection:
 ```
 #https://github.com/ultralytics/ultralytics
 from ultralytics import YOLO
+import time
 # Load a pretrained YOLO11n model
 model = YOLO("yolo11n.pt")
 
