@@ -1,6 +1,6 @@
 # computer-vision-yolo11
 
-The following are examples of 'object detection' in pictures. We used version 11 of the neural network model YOLO (You Only Live Once), open-sourced by Ultralytics (https://huggingface.co/Ultralytics/YOLO11)
+The following are examples of 'object detection' in pictures. We used version 11 of the model YOLO (You Only Live Once), open-sourced by Ultralytics (https://huggingface.co/Ultralytics/YOLO11). This model is a convolutional neural network CNN.
 
 
 ![tmp6yf0_eyz](https://github.com/user-attachments/assets/e935e5b4-347d-4698-96e1-0e531ff4b9a7)
@@ -8,6 +8,8 @@ The following are examples of 'object detection' in pictures. We used version 11
 ![tmpa3w8y3f7](https://github.com/user-attachments/assets/030157bd-e701-4056-adc5-53429b85fdeb)
 
 ![tmp7zd4ruvw](https://github.com/user-attachments/assets/04e512cd-38a3-45b4-a91c-e17a9c46e460)
+
+The following picture, we had used a Diffusion Generative AI model to create the image. Obviously the image has defects. And YOLO is detecting partial birds.
 
 ![tmphfolxyyn](https://github.com/user-attachments/assets/1981e1fa-473c-44dd-af2e-56c40198255b)
 
