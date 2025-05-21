@@ -18,10 +18,6 @@ The following picture, we had used a Diffusion Generative AI model to create the
 
 ![tmphfolxyyn](https://github.com/user-attachments/assets/1981e1fa-473c-44dd-af2e-56c40198255b)
 
-![tmpv7f13_c5](https://github.com/user-attachments/assets/7aada6d6-109a-4709-ba22-f13ba67e72f3)
-
-![tmpofr6c_0z](https://github.com/user-attachments/assets/3f15fe21-2e19-4eeb-8fc3-854db9c28884)
-
 
 
 The following is excerpt of the code we used for object detection:
@@ -51,3 +47,8 @@ for ii,vv in enumerate(FlnmsL):
 #
 print( '998' , time.asctime( time.localtime( time.time() ) ))
 ```
+
+
+![tmpv7f13_c5](https://github.com/user-attachments/assets/7aada6d6-109a-4709-ba22-f13ba67e72f3)
+
+![tmpofr6c_0z](https://github.com/user-attachments/assets/3f15fe21-2e19-4eeb-8fc3-854db9c28884)
