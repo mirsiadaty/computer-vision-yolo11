@@ -106,13 +106,13 @@ New https://pypi.org/project/ultralytics/8.3.141 available 😃 Update with 'pip
 Ultralytics 8.3.140 🚀 Python-3.10.12 torch-2.2.2+cu121 CUDA:0 (Quadro RTX 8000, 48593MiB)
 engine/trainer: agnostic_nms=False, amp=True, augment=False, auto_augment=randaugment, batch=16, bgr=0.0, box=7.5, cache=False, cfg=None, classes=None, close_mosaic=10, cls=0.5, conf=None, copy_paste=0.0, copy_paste_mode=flip, cos_lr=False, cutmix=0.0, data=coco8.yaml, degrees=0.0, deterministic=True, device=None, dfl=1.5, dnn=False, dropout=0.0, dynamic=False, embed=None, epochs=100, erasing=0.4, exist_ok=False, fliplr=0.5, flipud=0.0, format=torchscript, fraction=1.0, freeze=None, half=False, hsv_h=0.015, hsv_s=0.7, hsv_v=0.4, imgsz=640, int8=False, iou=0.7, keras=False, kobj=1.0, line_width=None, lr0=0.01, lrf=0.01, mask_ratio=4, max_det=300, mixup=0.0, mode=train, model=yolo11n.pt, momentum=0.937, mosaic=1.0, multi_scale=False, name=train, nbs=64, nms=False, opset=None, optimize=False, optimizer=auto, overlap_mask=True, patience=100, perspective=0.0, plots=True, pose=12.0, pretrained=True, profile=False, project=None, rect=False, resume=False, retina_masks=False, save=True, save_conf=False, save_crop=False, save_dir=runs/detect/train, save_frames=False, save_json=False, save_period=-1, save_txt=False, scale=0.5, seed=0, shear=0.0, show=False, show_boxes=True, show_conf=True, show_labels=True, simplify=True, single_cls=False, source=None, split=val, stream_buffer=False, task=detect, time=None, tracker=botsort.yaml, translate=0.1, val=True, verbose=True, vid_stride=1, visualize=False, warmup_bias_lr=0.1, warmup_epochs=3.0, warmup_momentum=0.8, weight_decay=0.0005, workers=8, workspace=None
 
-WARNING ⚠️ Dataset 'coco8.yaml' images not found, missing path '/home/lcluser44/jupyters20230704/datasets/coco8/images/val'
-Downloading https://ultralytics.com/assets/coco8.zip to '/home/lcluser44/jupyters20230704/datasets/coco8.zip'...
+WARNING ⚠️ Dataset 'coco8.yaml' images not found, missing path '/home/lcluser44/jupyter255/datasets/coco8/images/val'
+Downloading https://ultralytics.com/assets/coco8.zip to '/home/lcluser44/jupyter255/datasets/coco8.zip'...
 
 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 433k/433k [00:00<00:00, 30.1MB/s]
-Unzipping /home/lcluser44/jupyters20230704/datasets/coco8.zip to /home/lcluser44/jupyters20230704/datasets/coco8...: 100%|██████████| 25/25 [00:00<00:00, 4565.78file/s]
+Unzipping /home/lcluser44/jupyter255/datasets/coco8.zip to /home/lcluser44/jupyter255/datasets/coco8...: 100%|██████████| 25/25 [00:00<00:00, 4565.78file/s]
 
-Dataset download success ✅ (0.1s), saved to /home/lcluser44/jupyters20230704/datasets
+Dataset download success ✅ (0.1s), saved to /home/lcluser44/jupyter255/datasets
 
 
 Downloading https://ultralytics.com/assets/Arial.ttf to '/home/lcluser44/.config/Ultralytics/Arial.ttf'...
@@ -155,16 +155,16 @@ AMP: running Automatic Mixed Precision (AMP) checks...
 AMP: checks passed ✅
 train: Fast image access ✅ (ping: 0.0±0.0 ms, read: 1681.9±582.4 MB/s, size: 50.0 KB)
 
-train: Scanning /home/lcluser44/jupyters20230704/datasets/coco8/labels/train... 4 images, 0 backgrounds, 0 corrupt: 100%|██████████| 4/4 [00:00<00:00, 595.59it/s]
+train: Scanning /home/lcluser44/jupyter255/datasets/coco8/labels/train... 4 images, 0 backgrounds, 0 corrupt: 100%|██████████| 4/4 [00:00<00:00, 595.59it/s]
 
-train: New cache created: /home/lcluser44/jupyters20230704/datasets/coco8/labels/train.cache
+train: New cache created: /home/lcluser44/jupyter255/datasets/coco8/labels/train.cache
 
 
 val: Fast image access ✅ (ping: 0.0±0.0 ms, read: 1356.4±812.4 MB/s, size: 54.0 KB)
 
-val: Scanning /home/lcluser44/jupyters20230704/datasets/coco8/labels/val... 4 images, 0 backgrounds, 0 corrupt: 100%|██████████| 4/4 [00:00<00:00, 802.85it/s]
+val: Scanning /home/lcluser44/jupyter255/datasets/coco8/labels/val... 4 images, 0 backgrounds, 0 corrupt: 100%|██████████| 4/4 [00:00<00:00, 802.85it/s]
 
-val: New cache created: /home/lcluser44/jupyters20230704/datasets/coco8/labels/val.cache
+val: New cache created: /home/lcluser44/jupyter255/datasets/coco8/labels/val.cache
 
 
 Plotting labels to runs/detect/train/labels.jpg... 
