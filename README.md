@@ -1,7 +1,12 @@
 # computer-vision-yolo11
 
-The following are examples of 'object detection' in pictures. We used version 11 of the model YOLO (You Only Live Once), open-sourced by Ultralytics (https://huggingface.co/Ultralytics/YOLO11). This model is a convolutional neural network CNN.
+The following is example of 'object tracking' in video:
 
+https://github.com/user-attachments/assets/ecb20022-cbfa-4f1d-96ce-eef2f420285b
+
+We used version 11 of the model YOLO (You Only Live Once), open-sourced by Ultralytics (https://huggingface.co/Ultralytics/YOLO11). This model is a convolutional neural network CNN.
+
+The following are examples of 'object detection' in pictures. 
 
 ![tmp6yf0_eyz](https://github.com/user-attachments/assets/e935e5b4-347d-4698-96e1-0e531ff4b9a7)
 
@@ -16,10 +21,6 @@ The following picture, we had used a Diffusion Generative AI model to create the
 ![tmpv7f13_c5](https://github.com/user-attachments/assets/7aada6d6-109a-4709-ba22-f13ba67e72f3)
 
 ![tmpofr6c_0z](https://github.com/user-attachments/assets/3f15fe21-2e19-4eeb-8fc3-854db9c28884)
-
-The following is example of video object tracking:
-
-https://github.com/user-attachments/assets/ecb20022-cbfa-4f1d-96ce-eef2f420285b
 
 
 
