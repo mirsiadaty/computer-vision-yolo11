@@ -106,16 +106,16 @@ New https://pypi.org/project/ultralytics/8.3.141 available 😃 Update with 'pip
 Ultralytics 8.3.140 🚀 Python-3.10.12 torch-2.2.2+cu121 CUDA:0 (Quadro RTX 8000, 48593MiB)
 engine/trainer: agnostic_nms=False, amp=True, augment=False, auto_augment=randaugment, batch=16, bgr=0.0, box=7.5, cache=False, cfg=None, classes=None, close_mosaic=10, cls=0.5, conf=None, copy_paste=0.0, copy_paste_mode=flip, cos_lr=False, cutmix=0.0, data=coco8.yaml, degrees=0.0, deterministic=True, device=None, dfl=1.5, dnn=False, dropout=0.0, dynamic=False, embed=None, epochs=100, erasing=0.4, exist_ok=False, fliplr=0.5, flipud=0.0, format=torchscript, fraction=1.0, freeze=None, half=False, hsv_h=0.015, hsv_s=0.7, hsv_v=0.4, imgsz=640, int8=False, iou=0.7, keras=False, kobj=1.0, line_width=None, lr0=0.01, lrf=0.01, mask_ratio=4, max_det=300, mixup=0.0, mode=train, model=yolo11n.pt, momentum=0.937, mosaic=1.0, multi_scale=False, name=train, nbs=64, nms=False, opset=None, optimize=False, optimizer=auto, overlap_mask=True, patience=100, perspective=0.0, plots=True, pose=12.0, pretrained=True, profile=False, project=None, rect=False, resume=False, retina_masks=False, save=True, save_conf=False, save_crop=False, save_dir=runs/detect/train, save_frames=False, save_json=False, save_period=-1, save_txt=False, scale=0.5, seed=0, shear=0.0, show=False, show_boxes=True, show_conf=True, show_labels=True, simplify=True, single_cls=False, source=None, split=val, stream_buffer=False, task=detect, time=None, tracker=botsort.yaml, translate=0.1, val=True, verbose=True, vid_stride=1, visualize=False, warmup_bias_lr=0.1, warmup_epochs=3.0, warmup_momentum=0.8, weight_decay=0.0005, workers=8, workspace=None
 
-WARNING ⚠️ Dataset 'coco8.yaml' images not found, missing path '/home/ghtw30s/jupyters20230704/datasets/coco8/images/val'
-Downloading https://ultralytics.com/assets/coco8.zip to '/home/ghtw30s/jupyters20230704/datasets/coco8.zip'...
+WARNING ⚠️ Dataset 'coco8.yaml' images not found, missing path '/home/lcluser44/jupyters20230704/datasets/coco8/images/val'
+Downloading https://ultralytics.com/assets/coco8.zip to '/home/lcluser44/jupyters20230704/datasets/coco8.zip'...
 
 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 433k/433k [00:00<00:00, 30.1MB/s]
-Unzipping /home/ghtw30s/jupyters20230704/datasets/coco8.zip to /home/ghtw30s/jupyters20230704/datasets/coco8...: 100%|██████████| 25/25 [00:00<00:00, 4565.78file/s]
+Unzipping /home/lcluser44/jupyters20230704/datasets/coco8.zip to /home/lcluser44/jupyters20230704/datasets/coco8...: 100%|██████████| 25/25 [00:00<00:00, 4565.78file/s]
 
-Dataset download success ✅ (0.1s), saved to /home/ghtw30s/jupyters20230704/datasets
+Dataset download success ✅ (0.1s), saved to /home/lcluser44/jupyters20230704/datasets
 
 
-Downloading https://ultralytics.com/assets/Arial.ttf to '/home/ghtw30s/.config/Ultralytics/Arial.ttf'...
+Downloading https://ultralytics.com/assets/Arial.ttf to '/home/lcluser44/.config/Ultralytics/Arial.ttf'...
 
 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 755k/755k [00:00<00:00, 45.9MB/s]
 
@@ -155,16 +155,16 @@ AMP: running Automatic Mixed Precision (AMP) checks...
 AMP: checks passed ✅
 train: Fast image access ✅ (ping: 0.0±0.0 ms, read: 1681.9±582.4 MB/s, size: 50.0 KB)
 
-train: Scanning /home/ghtw30s/jupyters20230704/datasets/coco8/labels/train... 4 images, 0 backgrounds, 0 corrupt: 100%|██████████| 4/4 [00:00<00:00, 595.59it/s]
+train: Scanning /home/lcluser44/jupyters20230704/datasets/coco8/labels/train... 4 images, 0 backgrounds, 0 corrupt: 100%|██████████| 4/4 [00:00<00:00, 595.59it/s]
 
-train: New cache created: /home/ghtw30s/jupyters20230704/datasets/coco8/labels/train.cache
+train: New cache created: /home/lcluser44/jupyters20230704/datasets/coco8/labels/train.cache
 
 
 val: Fast image access ✅ (ping: 0.0±0.0 ms, read: 1356.4±812.4 MB/s, size: 54.0 KB)
 
-val: Scanning /home/ghtw30s/jupyters20230704/datasets/coco8/labels/val... 4 images, 0 backgrounds, 0 corrupt: 100%|██████████| 4/4 [00:00<00:00, 802.85it/s]
+val: Scanning /home/lcluser44/jupyters20230704/datasets/coco8/labels/val... 4 images, 0 backgrounds, 0 corrupt: 100%|██████████| 4/4 [00:00<00:00, 802.85it/s]
 
-val: New cache created: /home/ghtw30s/jupyters20230704/datasets/coco8/labels/val.cache
+val: New cache created: /home/lcluser44/jupyters20230704/datasets/coco8/labels/val.cache
 
 
 Plotting labels to runs/detect/train/labels.jpg... 
@@ -271,9 +271,9 @@ YOLO11n summary (fused): 100 layers, 2,616,248 parameters, 0 gradients, 6.5 GFLO
 PyTorch: starting from 'runs/detect/train/weights/best.pt' with input shape (1, 3, 640, 640) BCHW and output shape(s) (1, 84, 8400) (5.3 MB)
 requirements: Ultralytics requirement ['onnx>=1.12.0,<1.18.0'] not found, attempting AutoUpdate...
 Defaulting to user installation because normal site-packages is not writeable
-Requirement already satisfied: onnx<1.18.0,>=1.12.0 in /home/ghtw30s/.local/lib/python3.10/site-packages (1.17.0)
-Requirement already satisfied: numpy>=1.20 in /home/ghtw30s/.local/lib/python3.10/site-packages (from onnx<1.18.0,>=1.12.0) (1.24.4)
-Requirement already satisfied: protobuf>=3.20.2 in /home/ghtw30s/.local/lib/python3.10/site-packages (from onnx<1.18.0,>=1.12.0) (4.25.2)
+Requirement already satisfied: onnx<1.18.0,>=1.12.0 in /home/lcluser44/.local/lib/python3.10/site-packages (1.17.0)
+Requirement already satisfied: numpy>=1.20 in /home/lcluser44/.local/lib/python3.10/site-packages (from onnx<1.18.0,>=1.12.0) (1.24.4)
+Requirement already satisfied: protobuf>=3.20.2 in /home/lcluser44/.local/lib/python3.10/site-packages (from onnx<1.18.0,>=1.12.0) (4.25.2)
 
 requirements: AutoUpdate success ✅ 1.1s
 WARNING ⚠️ requirements: Restart runtime or rerun command for updates to take effect
@@ -289,9 +289,9 @@ ONNX: slimming with onnxslim 0.1.53...
 ONNX: export success ✅ 2.8s, saved as 'runs/detect/train/weights/best.onnx' (10.2 MB)
 
 Export complete (3.2s)
-Results saved to /media/ghtw30s/SSD-PUT/mss20230718/ComputerVision/coco2017/runs/detect/train/weights
+Results saved to /media/lcluser44/SSD-PUT/mss20230718/ComputerVision/coco2017/runs/detect/train/weights
 Predict:         yolo predict task=detect model=runs/detect/train/weights/best.onnx imgsz=640  
-Validate:        yolo val task=detect model=runs/detect/train/weights/best.onnx imgsz=640 data=/home/ghtw30s/virenv20240420/lib/python3.10/site-packages/ultralytics/cfg/datasets/coco8.yaml  
+Validate:        yolo val task=detect model=runs/detect/train/weights/best.onnx imgsz=640 data=/home/lcluser44/virenv20240420/lib/python3.10/site-packages/ultralytics/cfg/datasets/coco8.yaml  
 Visualize:       https://netron.app
 99 Wed May 21 15:38:55 2025
 
@@ -300,9 +300,9 @@ Visualize:       https://netron.app
 !ls -ltA runs/detect/train/weights/
 
 total 21320
--rwxrwxrwx 1 ghtw30s ghtw30s 10720972 May 21 15:38 best.onnx
--rwxrwxrwx 1 ghtw30s ghtw30s  5551443 May 21 15:20 best.pt
--rwxrwxrwx 1 ghtw30s ghtw30s  5551443 May 21 15:20 last.pt
+-rwxrwxrwx 1 lcluser44 lcluser44 10720972 May 21 15:38 best.onnx
+-rwxrwxrwx 1 lcluser44 lcluser44  5551443 May 21 15:20 best.pt
+-rwxrwxrwx 1 lcluser44 lcluser44  5551443 May 21 15:20 last.pt
 ```
 
 The following are samples of the "mosaic" images we used to tune the model.
