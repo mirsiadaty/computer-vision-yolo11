@@ -8,6 +8,7 @@ https://github.com/user-attachments/assets/ecb20022-cbfa-4f1d-96ce-eef2f420285b
 
 We used version 11 of the model YOLO (You Only Live Once), open-sourced by Ultralytics (https://huggingface.co/Ultralytics/YOLO11). This model is a convolutional neural network CNN.
 
+<br>
 
 ## object detection
 
