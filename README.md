@@ -199,6 +199,9 @@ Starting training for 100 epochs...
 
 
 
+<br>
+
+<br>
 
 and here is the final part of the log:
 
@@ -245,8 +248,60 @@ Results saved to runs/detect/train
 ```
 
 
+<br>
+
+<br>
+
+
+We then exported the tuned neural net as ONNX and saved into disk files:
+
+```
+print( '22' , time.asctime( time.localtime( time.time() ) ))
+# Export the model to ONNX format for deployment
+path = model112.export(format="onnx")  # Returns the path to the exported model
+print( '99' , time.asctime( time.localtime( time.time() ) ))
 
 
 
+22 Wed May 21 15:38:52 2025
+Ultralytics 8.3.140 🚀 Python-3.10.12 torch-2.2.2+cu121 CPU (Intel Xeon Silver 4208 2.10GHz)
+YOLO11n summary (fused): 100 layers, 2,616,248 parameters, 0 gradients, 6.5 GFLOPs
+
+PyTorch: starting from 'runs/detect/train/weights/best.pt' with input shape (1, 3, 640, 640) BCHW and output shape(s) (1, 84, 8400) (5.3 MB)
+requirements: Ultralytics requirement ['onnx>=1.12.0,<1.18.0'] not found, attempting AutoUpdate...
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: onnx<1.18.0,>=1.12.0 in /home/ghtw30s/.local/lib/python3.10/site-packages (1.17.0)
+Requirement already satisfied: numpy>=1.20 in /home/ghtw30s/.local/lib/python3.10/site-packages (from onnx<1.18.0,>=1.12.0) (1.24.4)
+Requirement already satisfied: protobuf>=3.20.2 in /home/ghtw30s/.local/lib/python3.10/site-packages (from onnx<1.18.0,>=1.12.0) (4.25.2)
+
+requirements: AutoUpdate success ✅ 1.1s
+WARNING ⚠️ requirements: Restart runtime or rerun command for updates to take effect
+
+
+ONNX: starting export with onnx 1.18.0 opset 17...
+
+
+[notice] A new release of pip is available: 25.0.1 -> 25.1.1
+[notice] To update, run: python3 -m pip install --upgrade pip
+
+ONNX: slimming with onnxslim 0.1.53...
+ONNX: export success ✅ 2.8s, saved as 'runs/detect/train/weights/best.onnx' (10.2 MB)
+
+Export complete (3.2s)
+Results saved to /media/ghtw30s/SSD-PUT/mss20230718/ComputerVision/coco2017/runs/detect/train/weights
+Predict:         yolo predict task=detect model=runs/detect/train/weights/best.onnx imgsz=640  
+Validate:        yolo val task=detect model=runs/detect/train/weights/best.onnx imgsz=640 data=/home/ghtw30s/virenv20240420/lib/python3.10/site-packages/ultralytics/cfg/datasets/coco8.yaml  
+Visualize:       https://netron.app
+99 Wed May 21 15:38:55 2025
+
+
+
+!ls -ltA runs/detect/train/weights/
+
+total 21320
+-rwxrwxrwx 1 ghtw30s ghtw30s 10720972 May 21 15:38 best.onnx
+-rwxrwxrwx 1 ghtw30s ghtw30s  5551443 May 21 15:20 best.pt
+-rwxrwxrwx 1 ghtw30s ghtw30s  5551443 May 21 15:20 last.pt
+```
 
 
