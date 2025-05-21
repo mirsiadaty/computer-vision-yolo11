@@ -304,4 +304,12 @@ total 21320
 -rwxrwxrwx 1 ghtw30s ghtw30s  5551443 May 21 15:20 last.pt
 ```
 
+The following are samples of the "mosaic" images we used to tune the model.
+
+Mosaicing is a technique used during training that combines multiple images into a single image to increase the variety of objects and scenes within each training batch. This helps improve the model's ability to generalize to different object sizes, aspect ratios, and contexts. (https://docs.ultralytics.com/datasets/detect/coco/)
+
+![train_batch2](https://github.com/user-attachments/assets/69cdf7a4-fe80-4033-bb2b-8532e4e9fc97)
+
+![train_batch90](https://github.com/user-attachments/assets/153125db-eef3-4bc6-a38a-20dd63b19260)
+
 
