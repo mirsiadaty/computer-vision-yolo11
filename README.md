@@ -14,11 +14,11 @@ YOLO's speed and accuracy make it suitable for various applications, including:
 
 ## object tracking
 
+We used version 11 of the model YOLO (You Only Live Once), open-sourced by Ultralytics (https://huggingface.co/Ultralytics/YOLO11). This model is a convolutional neural network CNN.
+
 The following is example of 'object tracking' in video:
 
 https://github.com/user-attachments/assets/ecb20022-cbfa-4f1d-96ce-eef2f420285b
-
-We used version 11 of the model YOLO (You Only Live Once), open-sourced by Ultralytics (https://huggingface.co/Ultralytics/YOLO11). This model is a convolutional neural network CNN.
 
 <br>
 
