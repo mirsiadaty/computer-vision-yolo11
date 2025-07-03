@@ -14,6 +14,10 @@ YOLO's speed and accuracy make it suitable for various applications, including:
 YOLO13 was published June 2025 (https://arxiv.org/abs/2506.17733). Both the convolutional architectures of YOLO11 and earlier versions and the area-based self-attention mechanism introduced in YOLOv12 are limited to local information modeling. YOLO13 enables global multi-to-multi high-order correlations, which improves detection performance in complex scenarios. 
 YOLOv13-N improves mAP by 3.0% over YOLO11-N and by 1.5% over YOLOv12-N.
 
+![Screenshot from 2025-07-03 11-11-26](https://github.com/user-attachments/assets/d57266bb-06af-4f5e-a2c6-fe134c7950b0)
+
+<br>
+<br>
 
 ## object tracking
 
