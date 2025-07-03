@@ -2,7 +2,7 @@
 
 YOLO, which stands for "You Only Look Once," is a popular and efficient object detection algorithm in computer vision. It is known for its speed and ability to perform real-time object detection, making it suitable for applications like autonomous driving and surveillance. 
 
-The original YOLO (You Only Look Once) paper was published in 2016. Since then, there have been several versions, each improving upon the previous one in terms of speed, accuracy, or both.
+The original YOLO (You Only Look Once) paper was published in 2015 (https://arxiv.org/abs/1506.02640). Since then, there have been several versions, each improving upon the previous one in terms of speed, accuracy, or both.
 
 YOLO's speed and accuracy make it suitable for various applications, including:
 * Autonomous vehicles: Detecting pedestrians, other vehicles, traffic signs, etc. 
