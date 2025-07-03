@@ -333,3 +333,13 @@ Mosaicing is a technique used during training that combines multiple images into
 ![train_batch90](https://github.com/user-attachments/assets/153125db-eef3-4bc6-a38a-20dd63b19260)
 
 
+## Transformer-based computer-vision
+
+RT-DETR, which stands for Real-Time Detection Transformer, is an object detection model developed by Baidu. It's designed to achieve real-time performance while maintaining high accuracy, leveraging the Transformer architecture. It's known for its ability to adjust inference speed through different decoder layers without needing to be retrained.
+
+RT-DETR was published in 2023 (https://arxiv.org/abs/2304.08069), hence a bit outdated compared to YOLO13 of June 2025. Its performace on the other hand is promising, "DETRs Beat YOLOs on Real-time Object Detection".
+
+![Screenshot from 2025-07-03 15-49-18](https://github.com/user-attachments/assets/582a6a6a-0a48-4271-9821-aeadc0d4a826)
+
+
+
