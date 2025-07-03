@@ -11,7 +11,7 @@ YOLO's speed and accuracy make it suitable for various applications, including:
 * Sports analysis: Tracking players and objects. 
 * Industrial automation: Detecting defects in manufacturing processes. 
 
-Paper for YOLO13 was published June 2025 (https://arxiv.org/abs/2506.17733). Both the convolutional architectures of YOLO11 and earlier versions and the area-based self-attention mechanism introduced in YOLOv12 are limited to local information modeling. YOLO13 enables global multi-to-multi high-order correlations, which imprvoes detection performance in complex scenarios.
+YOLO13 was published June 2025 (https://arxiv.org/abs/2506.17733). Both the convolutional architectures of YOLO11 and earlier versions and the area-based self-attention mechanism introduced in YOLOv12 are limited to local information modeling. YOLO13 enables global multi-to-multi high-order correlations, which imprvoes detection performance in complex scenarios.
 
 ## object tracking
 
