@@ -332,6 +332,8 @@ Mosaicing is a technique used during training that combines multiple images into
 
 ![train_batch90](https://github.com/user-attachments/assets/153125db-eef3-4bc6-a38a-20dd63b19260)
 
+<br>
+<br>
 
 ## Transformer-based computer-vision
 
